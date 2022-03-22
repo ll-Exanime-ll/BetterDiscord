@@ -23,12 +23,6 @@ filter: grayscale(0) !important;
 background-image: url(https://i.ibb.co/M7wZwtj/leyendas.png);
 }
 
-/* Hide icons in text and voice channel */
-
-.children-3rEycc {
-display: none;
-}
-
 /* settings/deafen/mute buttons animated */
 
 .button-12Fmur:hover .contents-3ca1mk {animation: UserModalButtons 0.5s normal ease;}
