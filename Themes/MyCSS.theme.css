@@ -30,6 +30,7 @@ display: none;
 }
 
 /* settings/deafen/mute buttons animated */
+
 .button-12Fmur:hover .contents-3ca1mk {animation: UserModalButtons 0.5s normal ease;}
   .container-YkUktl .noWrap-hBpHBz {width: 100px;opacity: 1;}
   .button-12Fmur {transition: 0.2s;}
@@ -47,6 +48,7 @@ display: none;
   }
 
 /* Rainbow User ID */
+
 .subtext-2HDqJ7,
 .customStatus-1UAQAK,
 .hovered-20u3oh,
@@ -68,6 +70,7 @@ to {
 }
 
 /* Icon Discord animated */
+
 @keyframes spin {
     0% {
         transform: rotate(0deg);
