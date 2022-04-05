@@ -1,81 +1,27 @@
 /**
- * @name MyCSS
+ * @name ExaTheme
  * @author Exánime
- * @version 2.0
- * @description discord my way.
+ * @version 1.0
+ * @description ExaTheme.
  * @authorLink https://github.com/ll-Exanime-ll
  * @website https://discord-exabot.glitch.me/
- * @source https://github.com/ll-Exanime-ll/DiscordBetter/tree/main/Themes
+ * @source https://github.com/ll-Exanime-ll/DiscordBetter
  * @donate paypal.me/ExanimeTV
- * @updateUrl https://raw.githubusercontent.com/ll-Exanime-ll/DiscordBetter/main/Themes/MyCSS.theme.css
+ * @updateUrl https://raw.githubusercontent.com/ll-Exanime-ll/DiscordBetter/main/Themes/ExaTheme.css
  */	
 
-/* Modify the emoji */
+/* ExaTheme */
+@import "https://raw.githubusercontent.com/ll-Exanime-ll/DiscordBetter/main/Themes/src/ExaTheme.css";
 
-.sprite-2lxwfc {
-background-position: 0 !important;
-background-size: contain !important;
-filter: grayscale(0) !important;
-background-image: url(https://i.ibb.co/M7wZwtj/leyendas.png);
+/* BetterBadges */
+
+@import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
+:root{
+    --badge-size: 22px; /*discord defualt = 18px, theme defualt = 22px;*/
+    --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
+    --badges-everywhere-size: 15px; /*default = 15px*/
 }
 
-/* settings/deafen/mute buttons animated */
-
-.button-12Fmur:hover .contents-3ca1mk {animation: UserModalButtons 0.5s normal ease;}
-  .container-YkUktl .noWrap-hBpHBz {width: 100px;opacity: 1;}
-  .button-12Fmur {transition: 0.2s;}
-  .button-12Fmur:hover {padding-bottom: 0px;transition: 0.2;}
-  @keyframes UserModalButtons {
-    0% {
-      transform: translateY(0px);
-    }
-    50% {
-      transform: translateY(-5px);
-    }
-    100% {
-      transform: translateY(0px);
-    }
-  }
-
-/* Rainbow User ID */
-
-.subtext-2HDqJ7,
-.customStatus-1UAQAK,
-.hovered-20u3oh,
-.title-338goq {
-    background-image: linear-gradient(to left,rgb(51, 255, 0), rgb(255, 230, 0), red, rgb(234, 0, 255), rgb(0, 140, 255), rgb(51, 255, 0));
-    animation: gradient-border 4s linear infinite;
-    background-size: 400% 100%;
-    color: transparent !important;
-    -webkit-background-clip: text;
-    z-index: 1;
-}
-@keyframes gradient-border {
-from {
-  background-position: 0 0;
-}
-to {
-  background-position: 100% 0;
-}
-}
-
-/* Icon Discord animated */
-
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-    20% {
-        transform: rotate(-20deg);
-    }
-    70% {
-        transform: rotate(380deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-.pill-L_aLMQ.bd-selected + .listItemWrapper-3d87LP .homeIcon-r0w4ny {
-    animation: spin 0.8s ease;
-}
+/* Discord colors */
+@import "https://nyri4.github.io/Discolored/main.css";
+@import url('https://nyri4.github.io/donators/donators.css');
