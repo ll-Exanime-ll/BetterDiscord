@@ -14,7 +14,6 @@
 @import "https://raw.githubusercontent.com/ll-Exanime-ll/DiscordBetter/main/Themes/src/ExaTheme.css";
 
 /* BetterBadges */
-
 @import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
 :root{
     --badge-size: 22px; /*discord defualt = 18px, theme defualt = 22px;*/
