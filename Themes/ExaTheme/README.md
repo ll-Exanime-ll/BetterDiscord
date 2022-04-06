@@ -1,2 +1,2 @@
 # Themes
-Download the root files ending in **.theme.css**
+Download the themes, which end in **.theme.css**
